@@ -1,0 +1,5 @@
+# Robot Framework files
+.venv/
+results
+*.xml
+*.html
