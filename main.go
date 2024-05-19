@@ -50,8 +50,6 @@ func main() {
 	})
 
 	http.HandleFunc("/token", func(w http.ResponseWriter, r *http.Request) {
-		log.Print(r.Header)
-		log.Print(r.FormValue("grant_type"))
 		srv.HandleTokenRequest(w, r)
 	})
 
