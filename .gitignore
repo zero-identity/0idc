@@ -4,6 +4,10 @@ results
 *.xml
 *.html
 
-# Go compiled binaries
+# Go
+vendor/
 *.exe
 main
+
+# Database files
+data/
